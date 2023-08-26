@@ -78,13 +78,13 @@ h1{
 .titulox{
     background-color: rgb(73, 73, 190);
     position: fixed;
-    top: 0;
+    top: 10;
     left: 0;
     right: 0;
     z-index: 99;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    height: 50%;
+    height: 20%;
 
 }
 .p{
