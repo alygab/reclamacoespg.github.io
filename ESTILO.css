@@ -4,7 +4,7 @@
     position: fixed;
     background-color: rgb(19, 19, 19);
     height: 10%;
-    border-bottom-right-radius: 40px;
+    border-bottom-right-radius: 10px;
     top: 0;
     left: 0;
     right: 0;
@@ -19,6 +19,8 @@ h3{
     top: -25%;
 }
 body{
+    margin: 0;
+    padding: 0;
     background-color: rgb(37, 37, 37);
 }
 h1{
@@ -81,7 +83,7 @@ h1{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99;
+    z-index: 100;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     height: 20%;
@@ -152,14 +154,28 @@ a{
     margin-right: 30px;
     transition: 0.5s;
 }
+.conteudo p{
+    border-width: 5px;
+    border-color: rgb(73, 73, 190);
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .conteudo:hover{
     transition: 0.5s;
     background-color:rgb(148, 133, 2) ;
-    .h11{
+
+    
+}
+.h11{
         color: rgb(255, 255, 255);
         transition: 0.5s;
     }
-}
 .texto{
     margin: 10px;
     padding-left: 20px;
@@ -168,7 +184,7 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     color: white;
-    transition: 0.5s;
+    transition: font-size 0.5s ease;
 }
 .h11{
     position: relative;
@@ -185,10 +201,7 @@ a{
     margin-left: 90px;
     border-radius: 20px;
 }
-.parquetec{
-    display: inline-flex;
-}
-.botaocidade{
+.botaobairro{
     display: inline-table;
     background-color: aqua;
     width: 300px;
@@ -197,20 +210,38 @@ a{
     margin: 10px;
     transition: 0.5s;
     cursor: pointer;
+    overflow: hidden;
 }
 h4{
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 30px;
-}
-.botaocidade:hover{
     transition: 0.5s;
+    background-color: rgba(12, 100, 243, 0.4);
+}
+.botaobairro .texto{
+    opacity: 0;
+    transition: 0.5s;
+    enable-background: 0;
+}
+.botaobairro:hover{
     width: 320px;
     height: 370px;
+}
+.botaobairro:hover .texto{
+    font-size: 101.6%;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    enable-background: 1;
+    }
+.botaobairro:hover h4{
+    font-size: 31px;
+
 }
 .rodape{
     position: relative;
     background-color: black;
-    bottom: 0;
+    text-align: right;
+    padding: 1px;
 }
