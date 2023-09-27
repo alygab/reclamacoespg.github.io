@@ -30,7 +30,7 @@ h1{
     position: relative;
     top: -15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     color: white;
 }
@@ -111,16 +111,7 @@ img{
     width: 75%;
     heigth: auto;
 }
-@media(max-width:456px){
-    h1{
-        position: relative;
-        top: -15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 50px;
-        text-align: center;
-        color: white;
-    }
-}
+
 a{
     text-decoration: none;
 }
