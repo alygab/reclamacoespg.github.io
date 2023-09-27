@@ -105,11 +105,11 @@ h1{
 }
 img{
     padding: 30px;
+    width: 75%;
 }
 @media (max-width: 480px) {
     img{
-        padding: 10px;
-        height: 256px;
+        
     }
 }
 
