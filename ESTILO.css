@@ -107,6 +107,12 @@ img{
     padding: 30px;
 }
 
+@media (max-width: 480px) {
+    img{
+        padding: 10px;
+    }
+}
+
 a{
     text-decoration: none;
 }
