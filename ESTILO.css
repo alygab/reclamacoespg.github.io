@@ -93,17 +93,16 @@ h1{
 
 }
 .p{
-    border-width: 5px;
+    border-width: 20px;
     border-color: rgb(73, 73, 190);
-    margin: 10%;
+    border-style: solid;
+    margin: 5% 10%;
     border-radius: 20px;
     text-align: justify;
     color: white;
     background-color: rgb(116, 116, 116);
     font-size: 15px;
     padding: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 img{
