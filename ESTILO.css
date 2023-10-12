@@ -94,13 +94,11 @@ h1{
 }
 .p{
     border-width: 20px;
-    border-color: rgb(73, 73, 190);
     border-style: solid;
     margin: 5% 10%;
     border-radius: 20px;
     text-align: justify;
     color: white;
-    background-color: rgb(116, 116, 116);
     font-size: 15px;
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
