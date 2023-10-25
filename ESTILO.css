@@ -150,6 +150,7 @@ a{
 }
 .conteudo{
     background-color: rgb(145, 145, 145);
+    margin: 0 auto;
     margin-left: 30px;
     border-radius: 20px;
     margin-right: 30px;
@@ -164,6 +165,17 @@ a{
     font-size: 15px;
     padding: 20px;
     margin-top: 5%;
+    margin-bottom: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tabela {
+    max-width: 600px;
+    margin: 0 auto; 
+}
+.tabela ol{
+    text-align: justify;
+    color: white;
+    font-size: 15px;
     margin-bottom: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -237,7 +249,7 @@ h4{
     enable-background: 1;
     }
 .botaobairro:hover h4{
-    font-size: 31px;
+    font-size: 32px;
 
 }
 .rodape{
